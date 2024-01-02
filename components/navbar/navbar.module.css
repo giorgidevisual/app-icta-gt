@@ -1,0 +1,53 @@
+.wrapper-navbar {
+  display: grid;
+  grid: 
+  "logo title buttons" 10rem 
+  / 1fr  2fr  1fr;
+  background-color: #BEE053;
+}
+
+.navbar__logo {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo-embed {
+  flex-grow: 1;
+  width: 2rem;
+  object-fit: contain;
+}
+
+.navbar__container {
+  grid-area: title;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap:1rem;
+}
+
+.navbar__container--title {
+  color: #2D2E28;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.navbar__container--subtitle {
+  text-align: center;
+  color: #2D2E28;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.navbar__button {
+ background-color: transparent; 
+ border: 0;
+ color: #2D2E28;
+ font-family: Helvetica;
+ font-size: 1rem;
+ font-weight: 700;
+}
