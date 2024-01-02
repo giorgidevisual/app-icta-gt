@@ -1,0 +1,12 @@
+.wrapperCarousel {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100vw;
+  justify-content: center;
+}
+
+.containerSlides {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0
+}
