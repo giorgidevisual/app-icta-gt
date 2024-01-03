@@ -1,15 +1,16 @@
-import styles from './carousel.module.css'
+import { ImageCarousel } from '@/components'
+
+
+const slides = [
+  'https://picsum.photos/id/666/1080/480',
+  'https://picsum.photos/id/76/1080/480',
+  'https://picsum.photos/id/66/1080/480',
+]
+
 
 export const CarouselArrowDots = () => {
+
   return (
-    <section className={styles.wrapperCarousel}>
-      <div className={styles.containerSlides}>
-        <button className={styles.arrows}>Anterior</button>
-        <picture className={styles.containerSlides__images}>
-          <img src="https://picsum.photos/id/666/1080/480" alt=""></img>
-        </picture>
-        <button className={styles.arrows}>Siguiente</button>
-      </div>
-    </section>
+   <ImageCarousel slides={slides} />
   )
 }
