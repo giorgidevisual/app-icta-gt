@@ -1,0 +1,62 @@
+.grid_layout {
+  display: grid;
+  grid-template-rows: repeat(2fr, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.containerGrid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 25.3125rem;
+  height: 100%;
+  max-height: 17.0625rem;
+  gap: 2rem;  
+}
+.containerGrid--card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 25.3125rem;
+  height: 100%;
+  max-height: 17.0625rem;
+  gap: 2rem;  
+  border-radius: 1rem;
+  background: #E9E9E9;
+  justify-content: center;
+ 
+}
+
+.title {
+  color: #2D2E28;
+  font-family: Helvetica;
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 3rem; 
+}
+
+.title--color {
+  color: #007F39;
+  font-family: Helvetica;
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 3rem; 
+}
+
+.description {
+  color: #2D2E28;
+  font-family: Helvetica;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  overflow-wrap: break-word;
+}
+
+.description--card {
+  color: #2D2E28;
+font-family: Helvetica;
+font-size: 0.9rem;
+line-height: 1.3rem;
+padding: 0 1.25rem;
+overflow-wrap: break-word;
+}

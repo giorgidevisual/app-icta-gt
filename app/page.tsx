@@ -1,4 +1,4 @@
-import { CarouselArrowDots, Navbar } from '@/components'
+import { CarouselArrowDots, GridSituacionCultivo, Navbar } from '@/components'
 import styles from './page.module.css'
 
 export default function HomePage() {
@@ -8,6 +8,10 @@ export default function HomePage() {
     <main>
       <CarouselArrowDots />
     </main>
+    <section className={styles.wrapper}>
+      <GridSituacionCultivo />
+    </section>  
+    
     </>
   )
 }
