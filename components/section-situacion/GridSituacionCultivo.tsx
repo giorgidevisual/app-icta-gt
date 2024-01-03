@@ -15,7 +15,13 @@ export const GridSituacionCultivo = () => {
         <p className={styles['description--card']}><b>El propósito del Programa de Protección Vegetal</b><br/>Es generar conocimiento sobre las principales plagas y enfermedades, y poner a disposición de los sectores productivos información, que les permitan obtener una mayor producción y una mejor calidad de los productos.</p>
       </div>
       <div className={styles.containerGrid}>
-        <Image  src='https://picsum.photos/id/66/1080/480' width={405} height={273} alt='foto' style={{objectFit: "cover"}} />
+        <Image src='https://picsum.photos/id/66/1080/480' width={405} height={273} alt='foto'
+          style={
+            {
+              objectFit: 'cover',
+              borderRadius:'1rem'
+            }
+          } />
       </div>
       <div className={styles['containerGrid--card']}>
         <p className={styles['description--card']}><b>Las áreas de investigación que se abordan incluyen:</b><br/>Metodologías de diagnóstico, interacciones planta-organismo, diversidad y estructura de poblaciones, dinámica de poblaciones, diagnóstico y desarrollo de estrategias para el manejo de las plagas que afectan a los diferentes cultivos. Las investigaciones se realizan tanto a nivel de campo como en condiciones controladas.</p>

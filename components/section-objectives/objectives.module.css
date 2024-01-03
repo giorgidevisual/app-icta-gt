@@ -1,0 +1,81 @@
+.objetivesContainer {
+  display: flex;
+  width: 100%;
+  max-width: 80rem;
+  height: 80rem;
+  max-height: 41rem;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 1rem;
+  border-radius: 1.5rem;
+  background: #007F39;
+  box-shadow: 9px 9px 0px 0px #BEE053;
+}
+
+.objetivesColOne {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 3rem;
+}
+
+.wrapperArticle {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.articleColOne {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.titleContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.icons {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  color: #BEE053;
+}
+
+.title {
+  color: #FFF;
+  width: 25rem;
+  font-family: Helvetica;
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.subTitle {
+  color: #FFF;
+  width: 30rem;
+  font-family: Helvetica;
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.text {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 3.5rem;
+}
+
+.objetivesColTwo {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.wrapperPicture {
+  display: flex;
+  width: 32.125rem;
+}

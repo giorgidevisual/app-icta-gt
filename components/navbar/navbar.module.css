@@ -9,6 +9,7 @@
 .navbar__logo {
   grid-area: logo;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
