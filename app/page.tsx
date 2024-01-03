@@ -1,4 +1,4 @@
-import { CarouselArrowDots, GridSituacionCultivo, Navbar, Objectives } from '@/components'
+import { CarouselArrowDots, GridSituacionCultivo, Investigacion, Navbar, Objectives } from '@/components'
 import styles from './page.module.css'
 
 export default function HomePage() {
@@ -13,6 +13,9 @@ export default function HomePage() {
     </section>  
     <section className={styles.wrapperSection}>
       <Objectives />
+    </section>
+    <section className={styles.wrapperSection}>
+      <Investigacion />
     </section>
     
     </>
