@@ -1,0 +1,30 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 18.5rem;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.icon {
+  color: #007F39;
+  width: 40px;
+  height: 40px;
+}
+
+.titleCard {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.description {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.3125rem;
+}
