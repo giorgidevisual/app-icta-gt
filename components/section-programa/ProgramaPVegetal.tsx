@@ -6,7 +6,7 @@ export const ProgramaPVegetal = () => {
   return (
     <section className={styles.programContainer}>
       <header className={styles.titlesContainer}>
-        <h2 className={styles.title}>Programa de <span className={styles['title--color']}>Protección Vegetal</span></h2>
+        <h2 className={styles.title}>Programa de <br/><span className={styles['title--color']}>Protección Vegetal</span></h2>
         <h3 className={styles.subtitle}></h3>
       </header>
       <main className={styles.wrapperMain}>

@@ -1,0 +1,55 @@
+wrapperAccordion {
+  display: flex;
+  width: 100%;
+  max-width: 80rem;
+}
+
+.wrapperAccordion__accordion {
+  display: flex;
+  width: 100vw;
+  max-width: 52.69988rem;
+  color: #2D2E28;
+}
+
+.headerAccordion--top {
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  border-radius: 2rem 2rem 0 0;
+  padding: 2rem;
+  background-color: #F47920;
+  
+}
+
+.headerAccordion--outline {
+  width: 99%;
+  font-family: Helvetica;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  border: 4px solid #F47920;
+  padding: 2rem;
+}
+
+.headerAccordion--middle {
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  padding: 2rem;
+  background-color: #F47920;
+}
+
+.headerAccordion--botton {
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 1.4375rem;
+  font-weight: 700;
+  border-radius: 0 0 2rem 2rem;
+  padding: 2rem;
+  background-color: #F47920;
+}
+
+.styles.content {
+background-color: pink;
+}

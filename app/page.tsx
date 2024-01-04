@@ -1,5 +1,12 @@
-import { CarouselArrowDots, GridSituacionCultivo, Investigacion, Navbar, Objectives, ProgramaPVegetal } from '@/components'
-import styles from './page.module.css'
+import {
+  Accordion,
+  CarouselArrowDots,
+  GridSituacionCultivo,
+  Investigacion, Navbar,
+  Objectives,
+  ProgramaPVegetal
+} from '@/components';
+import styles from './page.module.css';
 
 export default function HomePage() {
   return (
@@ -20,7 +27,9 @@ export default function HomePage() {
     <section className={styles.wrapperSection}>
       <ProgramaPVegetal />
     </section>
-    
+    <section className={styles.wrapperSection}>
+      <Accordion />
+    </section>
     </>
   )
 }
