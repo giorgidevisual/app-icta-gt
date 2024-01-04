@@ -1,14 +1,35 @@
 .wrapperCarousel {
   display: flex;
   flex-wrap: nowrap;
-  width: 100vw;
+  width: 100%;
+  max-width: 80rem;
   justify-content: center;
 }
 
 .containerSlides {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 2rem 0
 }
 
- 
+.containerSlides__images {
+  border-radius: 2rem;
+}
+
+.arrowsWrapper {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.arrows {
+  display: flex;
+  width: 3.5rem;
+  height: 100%;
+  cursor: pointer;
+  color: white;
+}
+

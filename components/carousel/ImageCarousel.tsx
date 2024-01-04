@@ -1,5 +1,10 @@
 'use client'
+
 import styles from './carousel.module.css'
+import {
+  MdArrowBackIosNew,
+  MdArrowForwardIos,
+} from "react-icons/md";
 import Image from "next/image"
 import { useState } from 'react';
 
@@ -17,16 +22,24 @@ export const ImageCarousel = ({ slides }: any ) => {
   return (
     <section className={styles.wrapperCarousel}>
       <div className={styles.containerSlides}>
-        <button onClick={prevIndex} className={styles.arrows}>Anterior</button>
-        <picture className={styles.containerSlides__images}>
-          <Image 
+        
+        <Image 
+            className={styles.containerSlides__images}
             src={slides[currentIndex]} 
-            width={1080} 
-            height={480} 
+            width={1280} 
+            height={480}
+            style={
+              {
+                objectFit: 'cover'
+              }
+            }
             alt={`Slide ${currentIndex}`}
-          />
-        </picture>
-        <button onClick={nextIndex} className={styles.arrows}>Siguiente</button>
+        />
+        <span className={styles.arrowsWrapper}>
+          <MdArrowBackIosNew onClick={prevIndex} className={styles.arrows} />
+          <MdArrowForwardIos onClick={nextIndex} className={styles.arrows} />
+        </span>
+        
       </div>
     </section>
   );
