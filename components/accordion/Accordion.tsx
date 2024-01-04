@@ -1,4 +1,4 @@
-import { AccordionFill, Objectives } from '@/components'
+import { Objectives } from '@/components'
 import styles from './accordion.module.css'
 
 export const Accordion = () => {

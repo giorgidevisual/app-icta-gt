@@ -2,7 +2,7 @@ import {
   Accordion,
   CarouselArrowDots,
   GridSituacionCultivo,
-  Investigacion, Navbar,
+  Investigacion, Investigaciones, Navbar,
   Objectives,
   ProgramaPVegetal
 } from '@/components';
@@ -29,6 +29,10 @@ export default function HomePage() {
     </section>
     <section className={styles.wrapperSection}>
       <Accordion />
+    </section>
+    <hr style={{width: '80rem', color: '#2D2E28'}}></hr>  
+    <section className={styles.wrapperSection}>
+      <Investigaciones />
     </section>
     </>
   )

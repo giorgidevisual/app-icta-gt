@@ -1,0 +1,52 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  width: 11.625rem;
+  height: 100%;
+  gap: 5rem;
+  
+}
+
+.background--01 {
+  position: absolute;
+  top: 1rem;
+  width: 7.97144rem;
+  height: 7.97144rem;
+  border-radius: 50%;
+  background-color: #BEE053;
+  z-index: 1;
+
+}
+
+.background--02 {
+  position: absolute;
+  top: 1rem;
+  width: 7.97144rem;
+  height: 7.97144rem;
+  border-radius: 50%;
+  background-color: #007F39;
+  z-index: 1;
+
+}
+
+.icon {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+  color: #007F39;
+  width: 64px;
+  height: 64px;
+  z-index: 2  ;
+}
+
+.nameCard {
+  color: #2D2E28;
+  font-family: Helvetica;
+  font-size: 1.4375rem;;
+  text-decoration-line: underline;
+}

@@ -7,5 +7,5 @@ export { Investigacion } from './section-linea-investigacion/Investigacion';
 export { ProgramaPVegetal } from './section-programa/ProgramaPVegetal';
 export { CardsProgramFeatures } from './section-programa/CardsProgramFeatures';
 export { Accordion } from './accordion/Accordion';
-export { AccordionFill } from './accordion/AccordionFill';
-export { AccordionOutline } from './accordion/AccordionOutline';
+export { Investigaciones } from './section-investigaciones/Investigaciones';
+export { CardTiposInvestigaciones } from './section-investigaciones/CardTiposInvestigaciones';

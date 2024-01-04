@@ -1,0 +1,54 @@
+.investigacionesContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80rem;
+  height: 41rem;
+  gap:2rem;
+}
+
+.titlesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  color: #2D2E28;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 2.875rem;
+  font-weight: 700;
+  line-height: 3rem; 
+}
+
+.title--color {
+  color: #007F39;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 2.875rem;
+  font-weight: 700;
+}
+
+.subtitle {
+  color: #2D2E28;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 1rem;
+  line-height: 1rem; 
+}
+
+.wrapperMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardsRowContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 1.5rem;
+}
+
